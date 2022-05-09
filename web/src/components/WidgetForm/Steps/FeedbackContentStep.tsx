@@ -57,7 +57,7 @@ export function FeedbackContentStep({
           {feedbackTypeInfo.title}
         </span>
 
-        <CloseButton onScreenshotTook={setScreenshot} />
+        <CloseButton />
       </header>
 
       <form onSubmit={handleSubmitFeedback} className="my-4 w-full">
